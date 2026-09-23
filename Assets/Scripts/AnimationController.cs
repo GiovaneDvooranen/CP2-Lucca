@@ -13,4 +13,9 @@ public class AnimationController : MonoBehaviour
     {
         animator.SetTrigger("Thriller");
     }
+
+    public void RotateCharacter()
+    {
+        animator.transform.Rotate(0, 90, 0);
+    }
 }
